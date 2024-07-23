@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      const year = Number(prompt("년도를 입력해주세요.", "숫자"));
+      if ((year % 4 === 0 && 100 != 0) || year % 400 === 0) {
+        alert(`${year}년은 윤년입니다.`);
+      } else {
+        alert(`${year}년은 윤년이 아닙니다.`);
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
